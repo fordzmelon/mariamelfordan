@@ -1,0 +1,103 @@
+:root {
+    --bg1: #2d2a2b;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);
+    --brand: #f2b03b;
+    --white: rgb(235, 235, 235);
+    --p: rgb(161, 150,150);
+}
+
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 0%, 0%, 0.24), rgba(0, 0, 0, 0.212)), url('https://i.pinimg.com/originals/ba/af/af/baafafdff6ff509a81606463b6124b2c.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: rgba(204, 0, 255, 0.877);
+
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+* {
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+}
+
+.icon-img-box {
+    width: 40%;
+
+}
+
+.card {
+    transition: background-color 0.3s, 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(156, 3, 177);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: rgb(255, 255, 255);
+}
+
+.btn-outlined-brand {
+    color: rgb(2, 2, 2);
+    background-color: rgb(197, 0, 223);
+    border-color: #f8f8f8;
+}
+
+.btn-outlined-brand:hover {
+    background-color: rgb(247, 10, 255);
+}
+
+
+#cta {
+    background: linear-gradient(to right, hsla(0, 0%, 1%, 0.26), rgba(0, 0, 0, 0.932)), url('https://i.pinimg.com/originals/ba/af/af/baafafdff6ff509a81606463b6124b2c.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+.testimonials {
+    background-color: rgb(133, 12, 170);
+    padding: 30px;
+}
+
+#reviews a {
+    color: var(--brand);
+}
+
+#review {
+    background-color: var(--white);
+}
+
