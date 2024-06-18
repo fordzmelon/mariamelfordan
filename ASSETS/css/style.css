@@ -63,9 +63,9 @@ section {
 }
 
 .btn-outlined-brand {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: rgb(197, 0, 223);
-    border-color: #070707;
+    border-color: #ffffff;
 }
 
 .btn-outlined-brand:hover {
